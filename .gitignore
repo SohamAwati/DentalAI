@@ -1,0 +1,11 @@
+node_modules/
+__pycache__/
+venv/
+env/
+.env
+runs_cls/
+caries_cls_dataset/
+caries_spectra_dataset/
+*.pyc
+.DS_Store
+*.pt

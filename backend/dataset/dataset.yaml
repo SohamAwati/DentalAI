@@ -1,0 +1,9 @@
+path: /Users/soham/DentalAI/backend/dataset
+train: images/train
+val: images/val
+
+names:
+  0: healthy
+  1: mild
+  2: moderate
+  3: severe
