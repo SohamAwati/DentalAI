@@ -39,10 +39,10 @@ const Odontogram = ({ imageSrc, teethData }) => {
               key={idx}
               style={{
                 position: 'absolute',
-                left: `${x}px`,
-                top: `${y}px`,
-                width: `${w}px`,
-                height: `${h}px`,
+                left: `${x}%`,
+                top: `${y}%`,
+                width: `${w}%`,
+                height: `${h}%`,
                 border: `2px solid ${color}`,
                 backgroundColor: 'rgba(0,0,0,0.1)',
                 boxShadow: `0 0 10px ${color}55`,

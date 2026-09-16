@@ -57,10 +57,11 @@ The frontend will run on `http://localhost:5173`. Open this URL in your browser 
 4. Review the AI prediction, severity score, and patient archetype insights.
 
 ## Model Details 🧠
-The AI model powering this application is a **YOLOv8-nano classification model** (`yolov8n-cls.pt`). It was retrained using the **Caries-Spectra dataset**, classifying images into three distinct categories:
-- `NoEnamel_Caries` $\rightarrow$ Healthy
-- `EarlyStageEnamel_Caries` $\rightarrow$ Mild Risk
-- `AdvanceEnamel_Caries` $\rightarrow$ Severe / High Risk
+The AI model powering this application is a **YOLOv8-nano object detection model** (`yolov8n.pt`). It was trained on a synthetic detection dataset with bounding box annotations, detecting and classifying individual teeth into four distinct categories:
+- `healthy` $\rightarrow$ Healthy
+- `mild` $\rightarrow$ Mild Risk
+- `moderate` $\rightarrow$ Moderate Risk
+- `severe` $\rightarrow$ Severe / High Risk
 
 ## License 📄
 This project is licensed under the MIT License.
