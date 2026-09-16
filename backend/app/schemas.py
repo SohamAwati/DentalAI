@@ -5,7 +5,7 @@ class ToothResult(BaseModel):
     tooth_number: int
     condition: str
     confidence: float
-    boundingBox: Optional[List[int]] = None # [x, y, w, h]
+    boundingBox: Optional[List[float]] = None # [x, y, w, h]
 
 class ScanResult(BaseModel):
     quality_passed: bool
